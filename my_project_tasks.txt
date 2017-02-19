@@ -4,22 +4,34 @@ mkdir Development
 cd Development
 # Create repository name and README file on github.com
 git clone https://github.com/project_path
-# note the git clone command above with create a directory with the same name you gave the repository
-# name on github
+# note the git clone command above will create a directory with the same name that you gave the repository
+# on github
 
 
-# cd to directory where you would like to store your django files
+# cd to directory where you would like to store your django files (the directory created by git clone command above)
 
 django-admin startproject <mysite_name>
 python manage.py runserver
-# next open web brower and go to http://localhost:8000/
+# next open web brower and go to http://localhost:8000/ you should see powered by Django page
+python manage.py startapp <your_app_name>
 
 
+
+
+take a look at your other django apps and see how they are structured in regards to CSS & Media
+duplicate media structure in the social media analytics app
+download media from google images to appropriate media folder
+decide which files to copy to social medial analytics apps for reference to changes that need to be made
 
 
 
 
 CSS & HTML
 
-reference files in Download Folder
+unzip CSS & HTML Files reference files in Downloads Folder
+copy the files recursively to the /social_media_analytics/social_media_analytics folder so
+the can be referenced and referred to in Pycharm
+commit and add these files to github social_media_analytics_repo
+
+
 
