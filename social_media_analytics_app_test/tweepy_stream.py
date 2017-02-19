@@ -3,7 +3,7 @@
 Written By: Gil Rael
 
 
-The following application provides social media analytics from Tweeter via tweepy
+The following application provides social media analytics from Twitter via tweepy
 
 
 """
