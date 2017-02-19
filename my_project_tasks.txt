@@ -1,0 +1,24 @@
+mkvirtualenv
+cdvirtualenv
+mkdir Development
+cd Development
+# Create repository name and README file on github.com
+git clone https://github.com/project_path
+
+
+# cd to directory where you would lik to store your django files
+
+django-admin startproject mysite
+
+python django_admin.py
+python django_admin.py
+python django_admin.py
+
+
+
+
+
+CSS & HTML
+
+reference files in Download Folder
+
