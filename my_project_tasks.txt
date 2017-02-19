@@ -4,15 +4,16 @@ mkdir Development
 cd Development
 # Create repository name and README file on github.com
 git clone https://github.com/project_path
+# note the git clone command above with create a directory with the same name you gave the repository
+# name on github
 
 
-# cd to directory where you would lik to store your django files
+# cd to directory where you would like to store your django files
 
-django-admin startproject mysite
+django-admin startproject <mysite_name>
+python manage.py runserver
+# next open web brower and go to http://localhost:8000/
 
-python django_admin.py
-python django_admin.py
-python django_admin.py
 
 
 
