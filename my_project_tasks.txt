@@ -19,9 +19,11 @@ python manage.py startapp <your_app_name>
 
 
 take a look at your other django apps and see how they are structured in regards to CSS & Media
-duplicate media structure in the social media analytics app
-download media from google images to appropriate media folder
-decide which files to copy to social medial analytics apps for reference to changes that need to be made
+duplicate media structure in the social_media_analytics and social_media_analytics_app folders
+download media from google images to downloads folder - convert jpeg images to png images and copy to
+/static/css/images folder
+
+decide which files to copy to social media analytics app for reference to changes that need to be made
 
 
 
