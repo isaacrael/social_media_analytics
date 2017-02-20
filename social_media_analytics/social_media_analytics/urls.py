@@ -18,6 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', 'giturdone_quiz.views.index', name='index'),
+    url(r'^$', 'social_media_analytics_app.index', name='index'),
 
 ]
