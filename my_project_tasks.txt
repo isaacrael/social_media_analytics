@@ -14,6 +14,10 @@ django-admin startproject <mysite_name>
 python manage.py runserver
 # next open web brower and go to http://localhost:8000/ you should see powered by Django page
 python manage.py startapp <your_app_name>
+add models
+add urls
+add views
+python manage.py migrate
 
 
 
@@ -34,6 +38,16 @@ unzip CSS & HTML Files reference files in Downloads Folder
 copy the files recursively to the /social_media_analytics/social_media_analytics folder so
 the can be referenced and referred to in Pycharm
 commit and add these files to github social_media_analytics_repo
+
+
+create index.html
+change heading text
+reference my_site_style.css file
+create my_site_style.css file
+
+
+
+
 
 
 
