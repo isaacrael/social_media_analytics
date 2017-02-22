@@ -15,3 +15,12 @@ from django.utils.encoding import *
 
 def index(request):
     return render(request,'index.html')
+
+
+def analytics(request):
+    return render(request, 'analytics.html')
+
+
+def contact(request):
+    return render(request, 'contact.html')
+
