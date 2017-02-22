@@ -18,6 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', include('social_media_analytics_app.urls', namespace="social_media_analytics_app")),
-
+    url(r'^', include('social_media_analytics_app.urls', namespace='social_media_analytics_app'))
 ]
