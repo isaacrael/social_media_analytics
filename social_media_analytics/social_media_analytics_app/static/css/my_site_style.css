@@ -11,10 +11,11 @@ article, aside, footer, header, main, nav, section {
 }
 
 .banner {
+  width: 960px;
   background-color: white;
-  color: red;
-  padding: 10px 20px;
-  text-align: center;
+  color: Black;
+  padding: 10px 10px;
+/*  text-align: center;*/
 }
 
 body {
@@ -30,9 +31,10 @@ body {
 }
 
 nav {
-  background-color: #20416c;
-  padding: 5px;
-  margin-top: 1px;
+/*  background-color: #20416c;*/
+  background-color: blue;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 li a {
@@ -76,7 +78,8 @@ aside {
 
 footer {
   clear: both;
-  background-color: #20416c;
+/*  background-color: #20416c;*/
+  background-color: blue;
   color: white;
   padding: 5px 20px;
 }
