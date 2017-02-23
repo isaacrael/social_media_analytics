@@ -1,8 +1,9 @@
-from django.conf.urls import url
+from django.conf.urls import include, url
 
 from . import views
 
 urlpatterns = [
-    url(r'^email/$', views.email, name='email'),
-    url(r'^success/$', views.success, name='success'),
+#    url(r'^', include('send_email.urls')),
+    url(r'^email/', views.email, name='email'),
+    url(r'^success/', views.success, name='success'),
 ]
