@@ -24,3 +24,18 @@ def analytics(request):
 def contact(request):
     return render(request, 'contact.html')
 
+
+def twitter_sentiment(request):
+    return render(request, 'twitter_sentiment.html')
+
+
+def facebook_sentiment(request):
+    return render(request, 'facebook_sentiment.html')
+
+
+def youtube_sentiment(request):
+    return render(request, 'youtube_sentiment.html')
+
+
+def tumblr_sentiment(request):
+    return render(request, 'tumblr_sentiment.html')
