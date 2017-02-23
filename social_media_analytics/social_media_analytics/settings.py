@@ -121,12 +121,22 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
+"""
 # Email Backend
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_HOST_USER = "gilrael79@gmail.com"
 EMAIL_HOST_PASSWORD = 'cjgtsm79!'
 EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = "gilrael79@gmail.com"
+"""
+
+# Email Backend
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gilrael.com"
+EMAIL_HOST_USER = "gil@gilrael.com"
+EMAIL_HOST_PASSWORD = 'cjgtsm79!'
+EMAIL_PORT = 465
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = "gilrael79@gmail.com"
