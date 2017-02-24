@@ -22,6 +22,9 @@ python manage.py migrate
 
 
 
+
+
+
 take a look at your other django apps and see how they are structured in regards to CSS & Media
 duplicate media structure in the social_media_analytics and social_media_analytics_app folders
 download media from google images to downloads folder - convert jpeg images to png images and copy to
@@ -40,14 +43,26 @@ the can be referenced and referred to in Pycharm
 commit and add these files to github social_media_analytics_repo
 
 
-create index.html
-change heading text
-reference my_site_style.css file
-create my_site_style.css file
+X create index.html
+X change heading text
+X reference my_site_style.css file
+X create my_site_style.css file
+
+X create twitter_sentiment.html
+X create facebook_sentiment.html
+X create youtube_sentiment.html
+X create tumblr_sentiment.html
 
 
 
 
+Coding Logic Contact Form
+
+X python manage.py startapp <send_email>
+X create send_email views.py
+X create send_email urls.py
+X create contact.html
+X create success.html
 
 
 
