@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-mail</title>
+</head>
+<body>
+
+<form method="post" action=".">
+
+<form action="{% url 'social_media_analytics_app:success' %}"method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Send"/>
+
+
+</body>
+</html>
