@@ -7,7 +7,7 @@ from .forms import ContactForm
 
 # create your own views here
 
-def contact(request):
+def email(request):
     if request.method == 'GET':
         form = ContactForm()
     else:
@@ -17,11 +17,11 @@ def contact(request):
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
             try:
-                send_mail(subject, message, from_email, ['gil@gilrael.com'])
+                send_mail(subject, message, from_email, ['gilrael79@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')
-    return render(request, "contact.html", {'form': form})
+    return render(request, "email.html", {'form': form})
 
 
 def success(request):
