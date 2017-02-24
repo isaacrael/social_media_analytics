@@ -7,7 +7,7 @@ from .forms import ContactForm
 
 # create your own views here
 
-def email(request):
+def contact(request):
     if request.method == 'GET':
         form = ContactForm()
     else:
@@ -21,9 +21,9 @@ def email(request):
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')
-    return render(request, "email.html", {'form': form})
+    return render(request, "contact.html", {'form': form})
 
 
 def success(request):
-    return HttpResponse('Success! Thank you for your message.')
+    return render(request, 'success.html')
 
