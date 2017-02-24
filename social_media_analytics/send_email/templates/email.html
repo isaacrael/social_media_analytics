@@ -6,7 +6,9 @@
 </head>
 <body>
 
-<form method="post" action=".">
+
+
+<form action="{% url 'social_media_analytics_app:success' %}"method="post">
     {% csrf_token %}
     {{form.as_p}}
     <input type="submit" value="Send"/>
