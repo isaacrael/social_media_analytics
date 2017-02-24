@@ -32,18 +32,17 @@
     <main>
           <center><img src="../static/images/social_media_analytics_7.png" height="200" width="960"></center>
       <section>
-           <h2>This is the Contact Page!</h2>
+           <h2>Contact Us</h2>
 
- <form method="post" action=".">
+ <form action="{% url 'social_media_analytics_app:success' %}"method="post">
     {% csrf_token %}
     {{form.as_p}}
     <input type="submit" value="Send"/>
-      </section>
 
     </main>
 
     <footer>
-      <center><p>Web & Software Application Development By <a href="http://www.gilrael.com">Gil Rael</a></p></center>
+      <center><p>Web & Software Application Development By <a href="http://www.gilrael.com"><font color="Yellow">Gil Rael</a></p></center>
     </footer>
 
   </body>
