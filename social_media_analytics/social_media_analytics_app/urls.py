@@ -12,7 +12,7 @@ urlpatterns = [
     url(r'^facebook/', views.facebook_sentiment, name='facebook_sentiment'),
     url(r'^youtube/', views.youtube_sentiment, name='youtube_sentiment'),
     url(r'^tumblr/', views.tumblr_sentiment, name='tumblr_sentiment'),
-    url(r'^contact/', views.contact, name='contact')
+#    url(r'^contact/', views.contact, name='contact')
     #url(r'^resources/', views.git_resources, name='resources'),
     # ex: /quiz/5/
     #url(r'^(?P<question_id>[0-9]+)/$', views.detail, name='detail'),
