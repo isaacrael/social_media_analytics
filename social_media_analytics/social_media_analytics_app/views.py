@@ -9,16 +9,26 @@ from . models import Answer, Question
 import random
 import datetime
 from django.utils.encoding import *
+import django.template.context_processors
+from . processors import custom_processor
+
 
 # Create your views here.
 
 
+
+
+
 def index(request):
-    return render(request,'index.html')
+    #now = datetime.datetime.now()
+    #context={'DATE_TIME':now}
+    context = RequestContext(request, [custom_processor])
+    return render(request, 'index.html', {'context':context})
 
 
 def analytics(request):
-    return render(request, 'analytics.html')
+    context = RequestContext(request, [custom_processor])
+    return render(request, 'analytics.html', {'context':context})
 
 
 def contact(request):
@@ -35,6 +45,7 @@ def facebook_sentiment(request):
 
 def youtube_sentiment(request):
     return render(request, 'youtube_sentiment.html')
+
 
 
 def tumblr_sentiment(request):
