@@ -52,6 +52,7 @@ X create twitter_sentiment.html
 X create facebook_sentiment.html
 X create youtube_sentiment.html
 X create tumblr_sentiment.html
+X change title and footer message and link in all templates
 
 
 
@@ -63,6 +64,18 @@ X create send_email views.py
 X create send_email urls.py
 X create contact.html
 X create success.html
+
+
+
+
+Context Processor
+
+X add . path for context processor in the settings file under context processor
+X create processors.py file and add function for context_processor
+X add context line and context dictionary in the render for all views
+X add dictionary key DATE_TIME in all templates
+X research most commonly used context processor tasks
+
 
 
 
