@@ -74,7 +74,17 @@ X add . path for context processor in the settings file under context processor
 X create processors.py file and add function for context_processor
 X add context line and context dictionary in the render for all views
 X add dictionary key DATE_TIME in all templates
-X research most commonly used context processor tasks
+research most commonly used context processor tasks (variable sharing) etc...
+
+
+Social Media Login & Sharing
+
+research social media login & sharing how to implement
+
+https://github.com/codingforentrepreneurs/Guides/blob/master/all/social_share_links.md
+
+X Download icon images for Facebook & Twitter and include those on the index page
+
 
 
 
