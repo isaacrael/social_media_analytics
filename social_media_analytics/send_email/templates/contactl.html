@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../static/css/my_site_style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Contact - Social Media Analytics</title>
+     <!--[if lt IE 9]>
+    <script>
+      document.createElement("article");
+      document.createElement("aside");
+      document.createElement("footer");
+      document.createElement("header");
+      document.createElement("main");
+      document.createElement("nav");
+      document.createElement("section");
+    </script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="banner">
+      <h1>Social Media Analytics</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="http://localhost:8000/">About</a></li>
+        <li><a href="http://localhost:8000/analytics/">Analytics</a></li>
+        <li><a href="http://localhost:8000/contact/">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+          <center><img src="../static/images/social_media_analytics_7.png" height="200" width="960"></center>
+          <left-justify><img src="../static/images/python_django.png"></left-justify>
+          <h3>{{ DATE_TIME }}</h3>
+      <section>
+           <h2>Contact Us</h2>
+
+ <form method="post" action="{% url 'social_media_analytics_app:success' %}">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Send"/>
+
+
+    </main>
+
+    <footer>
+      <center><p>Web Design & Software Application Development By <a href="http://www.gilrael.com" style="color:Yellow" target=_"blank">Gil Rael</a></p></center>
+    </footer>
+
+  </body>
+</html>
+</head>
+</html>
