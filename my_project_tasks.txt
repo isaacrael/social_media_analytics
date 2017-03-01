@@ -103,3 +103,8 @@ http://stackoverflow.com/questions/30066689/render-matplotlib-graph-into-html-vi
 How To Save Plot To A Filename
 
 https://chartio.com/resources/tutorials/how-to-save-a-plot-to-a-file-using-matplotlib/
+
+
+Ubuntu apt-get How To
+
+https://help.ubuntu.com/community/AptGet/Howto
