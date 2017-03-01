@@ -18,6 +18,7 @@ add models
 add urls
 add views
 python manage.py migrate
+python manage createsuperuser
 
 
 
@@ -87,5 +88,14 @@ X Download icon images for Facebook & Twitter and include those on the index pag
 
 
 
+
+X TroubleShoot DATE_TIME variable not updating timedate was off on local system typed timedatectl
+X as root and issue command that was recommended by the output
+
+
+Matplotlib
+
+become familiar with matplotlib so that the social media data can be graphed
+pie charts and bar charts
 
 
