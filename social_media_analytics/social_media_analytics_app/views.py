@@ -10,6 +10,7 @@ import random
 import datetime
 from django.utils.encoding import *
 import django.template.context_processors
+import matplotlib as plt
 from . processors import custom_processor
 
 
@@ -50,3 +51,9 @@ def youtube_sentiment(request):
 
 def tumblr_sentiment(request):
     return render(request, 'tumblr_sentiment.html')
+
+
+def plot(request):
+    plot([1,2,4])
+    plt.savefig()
+    return render(request, 'plot.html')
