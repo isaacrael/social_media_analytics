@@ -98,4 +98,8 @@ Matplotlib
 become familiar with matplotlib so that the social media data can be graphed
 pie charts and bar charts
 
+http://stackoverflow.com/questions/30066689/render-matplotlib-graph-into-html-via-views-in-django
 
+How To Save Plot To A Filename
+
+https://chartio.com/resources/tutorials/how-to-save-a-plot-to-a-file-using-matplotlib/
