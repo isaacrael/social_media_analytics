@@ -11,6 +11,7 @@ import datetime
 from django.utils.encoding import *
 import django.template.context_processors
 import matplotlib as plt
+from pylab import *
 from . processors import custom_processor
 
 
@@ -54,6 +55,8 @@ def tumblr_sentiment(request):
 
 
 def plot(request):
-    plot([1,2,4])
-    plt.savefig()
-    return render(request, 'plot.html')
+    file_path = "../static/images/plot.png"
+    plt.plot([1,2,4,50,2,1])
+    plt.savefig("social_media_analytics_app/static/images/plot.png")
+    img_path = {'PATH': file_path}
+    return render(request, 'plot.html', img_path)
