@@ -56,7 +56,7 @@ def tumblr_sentiment(request):
 
 def plot(request):
     file_path = "../static/images/plot.png"
-    plt.plot([1,2,4,50,2,1])
+    plt.plot([1,2,4,50,2,1,2,78])
     plt.savefig("social_media_analytics_app/static/images/plot.png")
     img_path = {'PATH': file_path}
     return render(request, 'plot.html', img_path)
