@@ -122,3 +122,10 @@ http://matplotlib.org/faq/usage_faq.html#what-is-a-backend
 
 http://stackoverflow.com/questions/40796575/matplotlib-jupyter-notebook-importerror-no-module-named-tkinter?noredirect=1&lq=1
 
+Python Plotting Applications
+
+https://wiki.python.org/moin/NumericAndScientific/Plotting
+
+Virtualenv Command Reference
+
+http://www.virtualenvwrapper.readthedocs.io/en/latest/command_ref.html
