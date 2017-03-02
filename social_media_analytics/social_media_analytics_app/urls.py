@@ -12,7 +12,8 @@ urlpatterns = [
     url(r'^facebook/', views.facebook_sentiment, name='facebook_sentiment'),
     url(r'^youtube/', views.youtube_sentiment, name='youtube_sentiment'),
     url(r'^tumblr/', views.tumblr_sentiment, name='tumblr_sentiment'),
-    url(r'^plot/$', views.plot, name='plot')
+    url(r'^plot/$', views.plot, name='plot'),
+    url(r'^piechart/$', views.piechart, name='piechart'),
 #    url(r'^contact/', views.contact, name='contact')
     #url(r'^resources/', views.git_resources, name='resources'),
     # ex: /quiz/5/
