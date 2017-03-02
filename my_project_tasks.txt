@@ -108,3 +108,17 @@ https://chartio.com/resources/tutorials/how-to-save-a-plot-to-a-file-using-matpl
 Ubuntu apt-get How To
 
 https://help.ubuntu.com/community/AptGet/Howto
+
+
+How To Configure Matplotlib Not To Use Tkinter
+
+change the backend directive in the matplotlibrc to read backend  :  Agg   instead of  backend  :  TkAgg
+
+/home/isaac/.virtualenvs/social_media_analytics/lib/python2.7/site-packages/matplotlib/mpl-data/matplotlibrc
+
+see the following web pages for more information
+
+http://matplotlib.org/faq/usage_faq.html#what-is-a-backend
+
+http://stackoverflow.com/questions/40796575/matplotlib-jupyter-notebook-importerror-no-module-named-tkinter?noredirect=1&lq=1
+
